@@ -580,8 +580,8 @@ margin-bottom: 16px;
     height: 40px;
     background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    font-size: 12px
-    line-height: 2px;
+    font-size: 12px;
+    line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
     color: #FFFFFF;
@@ -602,7 +602,7 @@ font-weight: 400;
 }
 
 .button-submit-footer{
-       font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
        border-radius: 4px;
         border: none;
         min-width: 165px;
@@ -637,6 +637,7 @@ font-weight: 400;
 
 .icin-footer-submit{
     fill: #FFFFFF;
+    margin-left: 16px;
 }
 
 .modal-overlay{
@@ -670,6 +671,7 @@ padding: 72px 24px 24px;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-clos-modal{
@@ -706,7 +708,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .icon-clos-modal:hover,
 .icon-clos-modal:focus{
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 .modal-title{
@@ -797,10 +799,9 @@ input[type="checkbox"]:checked+label .span-check {
 }
 
 .button-submit-modal{
+    font-family: "Roboto", sans-serif;
     display: block;
     border-radius: 4px;
-    padding: 16px 0;
-    padding:0 32px;
     min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -811,7 +812,6 @@ input[type="checkbox"]:checked+label .span-check {
     letter-spacing: 0.04em;
     color: #ffffff;
     margin: 0 auto;
-    margin-top: 24px;
     cursor: pointer;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
