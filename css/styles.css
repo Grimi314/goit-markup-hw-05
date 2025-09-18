@@ -745,7 +745,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
      color: #8e8f99;
      margin-left: 8px;
-     display: flex;
+     
     }
 
 .input-modal{
@@ -802,6 +802,7 @@ input[type="checkbox"]:checked+label .span-check {
     color: #4d5ae5;
     margin-left: 4px;
     text-decoration: underline;
+    display: inline-block;
 }
 
 .button-submit-modal{
